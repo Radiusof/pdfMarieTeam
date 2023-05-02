@@ -1,0 +1,12 @@
+C:\Users\Kevin\Documents\School\C#\Atlantic\AtlanticClass\bin\Debug\AtlanticClass.dll
+C:\Users\Kevin\Documents\School\C#\Atlantic\AtlanticClass\bin\Debug\AtlanticClass.pdb
+C:\Users\Kevin\Documents\School\C#\Atlantic\AtlanticClass\obj\Debug\AtlanticClass.csproj.AssemblyReference.cache
+C:\Users\Kevin\Documents\School\C#\Atlantic\AtlanticClass\obj\Debug\AtlanticClass.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Documents\School\C#\Atlantic\AtlanticClass\obj\Debug\AtlanticClass.dll
+C:\Users\Kevin\Documents\School\C#\Atlantic\AtlanticClass\obj\Debug\AtlanticClass.pdb
+C:\Users\Kevin\Documents\School\C#\Atlantic\AtlanticClass\bin\Debug\MySql.Data.DLL
+C:\Users\Kevin\Documents\School\C#\Atlantic\AtlanticClass\bin\Debug\Renci.SshNet.Async.dll
+C:\Users\Kevin\Documents\School\C#\Atlantic\AtlanticClass\bin\Debug\Renci.SshNet.dll
+C:\Users\Kevin\Documents\School\C#\Atlantic\AtlanticClass\bin\Debug\Renci.SshNet.xml
+C:\Users\Kevin\Documents\School\C#\Atlantic\AtlanticClass\bin\Debug\Renci.SshNet.Async.xml
+C:\Users\Kevin\Documents\School\C#\Atlantic\AtlanticClass\obj\Debug\AtlanticClass.csproj.CopyComplete
