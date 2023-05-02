@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="frmCreerBateau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ModifierInfoBateau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NbBateauxFrets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NbBateauxVoyageurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NbEquipBateauxVoyageurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SupprimerBateau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VoirBateaux.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

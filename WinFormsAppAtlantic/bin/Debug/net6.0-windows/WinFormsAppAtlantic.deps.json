@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WinFormsAppAtlantic/1.0.0": {
+        "dependencies": {
+          "AtlanticClass": "1.0.0"
+        },
+        "runtime": {
+          "WinFormsAppAtlantic.dll": {}
+        }
+      },
+      "AtlanticClass/1.0.0": {
+        "runtime": {
+          "AtlanticClass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinFormsAppAtlantic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AtlanticClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

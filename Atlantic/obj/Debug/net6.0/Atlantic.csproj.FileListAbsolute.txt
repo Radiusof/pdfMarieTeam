@@ -1,0 +1,12 @@
+C:\Users\Kevin\Documents\School\C#\Atlantic\Atlantic\bin\Debug\net6.0\Atlantic.deps.json
+C:\Users\Kevin\Documents\School\C#\Atlantic\Atlantic\bin\Debug\net6.0\Atlantic.dll
+C:\Users\Kevin\Documents\School\C#\Atlantic\Atlantic\bin\Debug\net6.0\Atlantic.pdb
+C:\Users\Kevin\Documents\School\C#\Atlantic\Atlantic\obj\Debug\net6.0\Atlantic.csproj.AssemblyReference.cache
+C:\Users\Kevin\Documents\School\C#\Atlantic\Atlantic\obj\Debug\net6.0\Atlantic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kevin\Documents\School\C#\Atlantic\Atlantic\obj\Debug\net6.0\Atlantic.AssemblyInfoInputs.cache
+C:\Users\Kevin\Documents\School\C#\Atlantic\Atlantic\obj\Debug\net6.0\Atlantic.AssemblyInfo.cs
+C:\Users\Kevin\Documents\School\C#\Atlantic\Atlantic\obj\Debug\net6.0\Atlantic.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Documents\School\C#\Atlantic\Atlantic\obj\Debug\net6.0\Atlantic.dll
+C:\Users\Kevin\Documents\School\C#\Atlantic\Atlantic\obj\Debug\net6.0\refint\Atlantic.dll
+C:\Users\Kevin\Documents\School\C#\Atlantic\Atlantic\obj\Debug\net6.0\Atlantic.pdb
+C:\Users\Kevin\Documents\School\C#\Atlantic\Atlantic\obj\Debug\net6.0\ref\Atlantic.dll

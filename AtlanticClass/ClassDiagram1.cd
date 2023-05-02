@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Atlantic.Bateau">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAAAAAAIEECAAIAAAAAAAAgCAAAABIAAAAhA=</HashCode>
+      <FileName>Bateau.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Atlantic.BateauFret">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAACAAAAAAAEAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BateauFret.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Atlantic.BateauVoyageur">
+    <Position X="3.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAEARAAQAAAEAAAAAQAAAAAAAAEAAA=</HashCode>
+      <FileName>BateauVoyageur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Atlantic.Equipement" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAgEAAAAAAAAAAACAAAAgAAAAAAAggA=</HashCode>
+      <FileName>Equipement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Atlantic.passerelle" Collapsed="true">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAIAEAAAAAAEAAAAAABAAAAAABAIAAEAQA=</HashCode>
+      <FileName>passerelle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
