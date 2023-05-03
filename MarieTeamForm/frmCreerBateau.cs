@@ -58,6 +58,7 @@ namespace WinFormsAppAtlantic
         {
             lbl_success.Visible = false;
             lbl_ajouterImage.Visible = false;
+            int equipid;
 
             if (picturebox.Image == null)
             {
@@ -96,6 +97,199 @@ namespace WinFormsAppAtlantic
                         default:
                             MessageBox.Show(err.Message);
                             break;
+                    }
+                }
+
+                if (cb_equipHandi.Checked)
+                {
+                    equipid = 1;
+                    try
+                    {
+                        Connection query = new Connection();
+                        query.insertEquip(equipid, id);         
+                    }
+                    catch (MySql.Data.MySqlClient.MySqlException err)
+                    {
+                        switch (err.Number)
+                        {
+                            case 0:
+                                MessageBox.Show("Impossible de se connecter au serveur.");
+                                break;
+                            case 1045:
+                                MessageBox.Show("Utilisateur/Mdp incorrect");
+                                break;
+                            default:
+                                MessageBox.Show(err.Message);
+                                break;
+                        }
+                    }
+                }
+                if (cb_equipBar.Checked)
+                {
+                    equipid = 2;
+                    try
+                    {
+                        Connection query = new Connection();
+                        query.insertEquip(equipid, id);
+                    }
+                    catch (MySql.Data.MySqlClient.MySqlException err)
+                    {
+                        switch (err.Number)
+                        {
+                            case 0:
+                                MessageBox.Show("Impossible de se connecter au serveur.");
+                                break;
+                            case 1045:
+                                MessageBox.Show("Utilisateur/Mdp incorrect");
+                                break;
+                            default:
+                                MessageBox.Show(err.Message);
+                                break;
+                        }
+                    }
+                }
+                if (cb_equipPont.Checked)
+                {
+                    equipid = 3;
+                    try
+                    {
+                        Connection query = new Connection();
+                        query.insertEquip(equipid, id);
+                    }
+                    catch (MySql.Data.MySqlClient.MySqlException err)
+                    {
+                        switch (err.Number)
+                        {
+                            case 0:
+                                MessageBox.Show("Impossible de se connecter au serveur.");
+                                break;
+                            case 1045:
+                                MessageBox.Show("Utilisateur/Mdp incorrect");
+                                break;
+                            default:
+                                MessageBox.Show(err.Message);
+                                break;
+                        }
+                    }
+                }
+                if (cb_equipSalon.Checked)
+                {
+                    equipid = 4;
+                    try
+                    {
+                        Connection query = new Connection();
+                        query.insertEquip(equipid, id);
+                    }
+                    catch (MySql.Data.MySqlClient.MySqlException err)
+                    {
+                        switch (err.Number)
+                        {
+                            case 0:
+                                MessageBox.Show("Impossible de se connecter au serveur.");
+                                break;
+                            case 1045:
+                                MessageBox.Show("Utilisateur/Mdp incorrect");
+                                break;
+                            default:
+                                MessageBox.Show(err.Message);
+                                break;
+                        }
+                    }
+                }
+                if (cb_equipToilettes.Checked)
+                {
+                    equipid = 5;
+                    try
+                    {
+                        Connection query = new Connection();
+                        query.insertEquip(equipid, id);
+                    }
+                    catch (MySql.Data.MySqlClient.MySqlException err)
+                    {
+                        switch (err.Number)
+                        {
+                            case 0:
+                                MessageBox.Show("Impossible de se connecter au serveur.");
+                                break;
+                            case 1045:
+                                MessageBox.Show("Utilisateur/Mdp incorrect");
+                                break;
+                            default:
+                                MessageBox.Show(err.Message);
+                                break;
+                        }
+                    }
+                }
+                if (cb_equipResto.Checked)
+                {
+                    equipid = 6;
+                    try
+                    {
+                        Connection query = new Connection();
+                        query.insertEquip(equipid, id);
+                    }
+                    catch (MySql.Data.MySqlClient.MySqlException err)
+                    {
+                        switch (err.Number)
+                        {
+                            case 0:
+                                MessageBox.Show("Impossible de se connecter au serveur.");
+                                break;
+                            case 1045:
+                                MessageBox.Show("Utilisateur/Mdp incorrect");
+                                break;
+                            default:
+                                MessageBox.Show(err.Message);
+                                break;
+                        }
+                    }
+                }
+                if (cb_equipCasino.Checked)
+                {
+                    equipid = 7;
+                    try
+                    {
+                        Connection query = new Connection();
+                        query.insertEquip(equipid, id);
+                    }
+                    catch (MySql.Data.MySqlClient.MySqlException err)
+                    {
+                        switch (err.Number)
+                        {
+                            case 0:
+                                MessageBox.Show("Impossible de se connecter au serveur.");
+                                break;
+                            case 1045:
+                                MessageBox.Show("Utilisateur/Mdp incorrect");
+                                break;
+                            default:
+                                MessageBox.Show(err.Message);
+                                break;
+                        }
+                    }
+                }
+                if (cb_equipChambres.Checked)
+                {
+                    equipid = 8;
+                    try
+                    {
+                        Connection query = new Connection();
+                        query.insertEquip(equipid, id);
+                    }
+                    catch (MySql.Data.MySqlClient.MySqlException err)
+                    {
+                        switch (err.Number)
+                        {
+                            case 0:
+                                MessageBox.Show("Impossible de se connecter au serveur.");
+                                break;
+                            case 1045:
+                                MessageBox.Show("Utilisateur/Mdp incorrect");
+                                break;
+                            default:
+                                MessageBox.Show(err.Message);
+                                break;
+                        }
                     }
                 }
             }
@@ -236,6 +430,102 @@ namespace WinFormsAppAtlantic
         private void picturebox_DragEnter(object sender, DragEventArgs e)
         {
             e.Effect = DragDropEffects.Copy;
+        }
+
+        private void picturebox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cb_equipChambres_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cb_equipCasino_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cb_equipResto_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cb_equipToilettes_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cb_equipHandi_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void cb_equipHandi_CheckedChanged_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void cb_equipBar_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void cb_equipPont_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void cb_equipSalon_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void cb_equipToilettes_CheckedChanged_1(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void cb_equipResto_CheckedChanged_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void cb_equipCasino_CheckedChanged_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void cb_equipChambres_CheckedChanged_1(object sender, EventArgs e)
+        {
+
+           
         }
     }
 }

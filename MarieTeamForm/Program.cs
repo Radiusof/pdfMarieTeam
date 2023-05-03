@@ -16,6 +16,7 @@ namespace MarieTeamForm
         public static double largeurBateau;
         public static int vitesseBateau;
         public static string[] equipement;
+        public static List<CheckBox> checkboxes;
 
         public static Form frmOuverte;
         /// <summary>

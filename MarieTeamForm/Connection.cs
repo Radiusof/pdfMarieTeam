@@ -12,6 +12,7 @@ using System.Diagnostics;
 using MarieTeamForm;
 using System.Collections;
 using Microsoft.Win32;
+using static iText.IO.Util.IntHashtable;
 
 
 namespace MarieTeamForm
@@ -122,9 +123,46 @@ namespace MarieTeamForm
                 }
                 }
             }
+        //Insert statement
+        public void insertEquip(int equipid, int id)
+        {
+            string query = $"INSERT INTO equipe (id_equipement,id_bateau) VALUES('{equipid}','{id}')";
 
-            //Update statement
-            public void Update(string libelle_bateau, double longueur, double largeur, int vitesse)
+            //open connection
+            if (this.OpenConnection() == true)
+            {
+                try
+                {
+                    //create command and assign the query and connection from the constructor
+                    MySqlCommand cmd = new MySqlCommand(query, connection);
+
+                    //Execute command
+                    cmd.ExecuteNonQuery();
+
+                    //close connection
+                    this.CloseConnection();
+                }
+                catch (MySql.Data.MySqlClient.MySqlException err)
+                {
+                    switch (err.Number)
+                    {
+                        case 0:
+                            MessageBox.Show("Impossible de se connecter au serveur.");
+                            break;
+                        case 1045:
+                            MessageBox.Show("Utilisateur/Mdp incorrect");
+                            break;
+                        default:
+                            MessageBox.Show(err.Message);
+                            break;
+                    }
+                }
+            }
+        }
+
+
+        //Update statement
+        public void Update(string libelle_bateau, double longueur, double largeur, int vitesse)
             {
                 string query = $"UPDATE bateau SET libelle_bateau={libelle_bateau}, longueur={longueur}, largeur={largeur} , vitesse={vitesse}  WHERE id={Program.idBateau}";
 
